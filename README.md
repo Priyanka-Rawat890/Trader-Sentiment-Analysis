@@ -11,26 +11,3 @@ fear_greed_index.csv: Contains daily Bitcoin market sentiment values and classif
 
 historical_data.csv: Contains trade-level data including account, coin, execution price, size, trade side, profit/loss, fees, and timestamps.
 
-
-**Project Structure**
-text
-ds_<yourname>/
-│
-├── notebook_1.ipynb              # Main analysis notebook (Google Colab)
-
-├── csv_files/                    # Stores original and processed CSV files
-
-│     ├── fear_greed_index.csv
-│     └── historical_data.csv
-
-
-├── outputs/                     # Visual output images (charts, graphs)
-│     ├── win_rate_by_sentiment.png
-│     └── avg_fee_by_sentiment.png
-
-
-├── ds_report.pdf                # Final summarized report document
-
-
-└── README.md                    # This file
-How to Run
